@@ -1,0 +1,44 @@
+\documentclass[a4paper,10pt,warn]{article}
+%\usepackage[T1]{fontenc}
+%\usepackage[latin1]{inputenc}
+%\usepackage{graphicx}
+%\usepackage{float}
+%\usepackage{amsmath}
+%\usepackage{mathtools}
+
+\usepackage{style}
+\usepackage{float}
+\usepackage{mcode}
+
+\begin{document}
+\title{Uppgift 1}
+\author{Patrik Laurell, Björn Wictorin}
+\maketitle
+\subsection*{a) Plottning av tabellvärden}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{../bilder/uppg1exp.pdf}
+	\caption{Resistans som funktion av temperaturen.}
+\end{figure}
+Figur 1 visar resistansen för termistorn, som funktion av temperaturen. Korsen visar mätvärdena. Den svarta kurvan anpassades till datapunkterna med hjälp av Matlab och ges av ekvationen $R=a\cdot e^{b/T}$, där $T$ är terminstorns temperatur. 
+	
+\subsection*{b) Plottning av logaritmerade tabellvärden}
+Antag att sambandet kan skrivas $R = a \cdot e^{b/T}$. Logaritmering av höger- och vänsterled ger $ln(R) = ln(a) + ln(e^{b/T}) = ln(a) + b\cdot \frac{1}{T}$. Detta är ekvationen för en rät linje, $y(1/T)$. Om värdena   $ln(R/\Omega)$ som funktion av $1/T$ ligger på en rät linje är det alltså sannolikt att antagandet, $R = a \cdot e^{b/T}$, stämmer. Figur 2 visar de logaritmerade resistansvärdena som funktion av $1/T$, tillsammans med en anpassad rät linje. I figuren ses att värdena ligger nära linjen, och alltså stämmer modellen $R = a \cdot e^{b/T}$ bra med mätdatan.
+	
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{../bilder/uppg1line.pdf}
+	\caption{Logaritmerade mätpunkter, $ln(R)$, som funktion av $1/T$.}
+\end{figure}
+
+\subsection*{c) Rätlinjeanpassning}
+Som vi såg i uppgift 1b ligger mätpunkterna $ln(R)$ plottade mot $1/T$ nära en rät linje. För att ta fram koefficienterna för linjen användes funktionen ``polyfit'' i Matlab. Det anpassade polynomet var av grad 1. Den anpassade linjen ges av ekvationen $y(1/T) = ln(a) + b \cdot \frac{1}{T}$. Rätlinjeanpassningen ger att $ln(a) = -5.34 \Leftrightarrow a=4.8 m\Omega$ och $b = 3040 K$.
+
+\subsection*{d) Plottning av den räta linjen}
+Den räta linjen plottades i samma figur som de logaritmerade mätpunkterna, se figur 2.
+
+\newpage
+\section*{Matlab kod}
+\lstinputlisting{../kod/inlamning1del1.m}
+
+\end{document}
