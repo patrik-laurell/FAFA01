@@ -1,0 +1,73 @@
+\documentclass[10pt,a4paper,warn]{article}
+\usepackage{style}
+\usepackage{float}
+\usepackage[]{mcode}
+\begin{document}
+\title{Uppgift 2}
+\author{Patrik Laurell, Björn Wictorin}
+\maketitle
+\section*{Teori}
+Kaströrelser kan beskrivas med hjälp av fysik. Det finns olika modeller för att beskriva kaströrelser, och beroende på modell blir fysiken mer eller mindre komplicerad. Det som skiljer de olika modellerna åt är hur man hanterar luftmotstånd. Gemensamt för alla modellerna är att rörelsen kan delas upp i en vertikal och en horisontell del, vilka är oberoende av varandra. 
+
+   Den enklaste modellen för att beräkna kastbanor utgår från att luftmotståndet kan försummas. Rörelsen i x-led blir då en rörelse med konstant hastighet. I y-led ses rörelsen som en likformigt accelererad rörelse med accelerationen riktad ned mot marken. Accelerationen är tyngdaccelerationen g, vilken har ett värde på ungefär 9,81m/s\textsuperscript{2}. Med denna modell kan rörelsen i x-led beskrivas med formeln:
+\begin{equation}
+	x(t)=v_0\cdot cos(\phi)\cdot t
+\end{equation}
+Rörelsen i y-led kan skrivas som:
+\begin{equation}
+	y(t)=v_0\cdot sin(\phi)\cdot t - \frac{gt^2}{2}
+\end{equation}
+där $\phi$ är vinkeln mot horisontalplanet.
+I en mer komplicerad modell tas luftmotståndet med i beräkningarna. I den modell för luftmotstånd som använts i uppgift 2b antas luftmotståndet ge upphov till en bromsande kraft som ger en acceleration riktad mot föremålets rörelseriktning. Accelerationen är direkt proportionell mot hastigheten med proportionalitetskonstanten 1. Denna modell för luftmotstånd ger upphov till följande differentialekvationer för y- respektive x-led:
+\begin{align}
+   \frac{d^2x}{dt^2}=-k\frac{dx}{dt}
+   \\
+   \frac{d^2y}{dt^2}=-k\frac{dy}{dt}-g
+\end{align}
+Lösningen till de båda ekvationerna ges av:
+\begin{equation}
+	x(t)=\frac{v_0\cdot cos(\phi)}{k}(1-e^{-kt})
+\end{equation}
+och
+\begin{equation}
+	y(t)=\frac{1}{k}(-gt+(v_0\cdot sin(\phi)+\frac{g}{k})(1-e^{-kt}))
+\end{equation}
+Se bifogat blad för lösning av differentialekvationerna.
+
+\subsection*{Resultat}
+
+\subsubsection*{a) Kastparabel utan luftmotstånd}
+Plottning av uttrycken för rörelse i x- och y-led ovan ger upphov till graferna i figur 1 nedan. De olika kastbanorna har kastvinklar på 20, 40 och 60 grader relativt horisontalplanet..
+\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.8\textwidth]{../bilder/uppg2noluftm.pdf}
+	\caption{Grafer för kasten utan luftmotstånd.}
+	\label{Fig 1}
+\end{figure}
+
+\subsubsection*{b) Kastparabel med luftmotstånd}
+Plottning av uttrycken för rörelse i x- och y-led med luftmotstånd ger graferna i figur 2 nedan. De olika kastbanorna har kastvinklar på 20, 40 och 60 grader relativt horisontalplanet.
+\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{../bilder/uppg2luftm.pdf}
+	\caption{Grafer för kasten med luftmotstånd.}
+	\label{Fig 2}
+\end{figure} 
+
+\subsection*{Slutsatser}
+\subsubsection*{a) Kastparabel utan luftmotstånd}
+I figur 1 ger 40 graders vinkel det längsta kastet av de tre utkastvinklarna. Allra längst kast ger 45 grader. För härledning av detta, se bifogat blad. Med denna modell blir kastbanorna parabler.
+
+\subsubsection*{b) Kastparabel med luftmotstånd}
+Kastbanorna i figur 2 har både lägre höjd och kortare räckvidd än banorna i figur 1. Detta är rimligt med tanke på att luftmotståndet bromsar upp rörelsen.
+I figur 2 är det precis som i figur 1 40 graders utkastvinkel som ger längsta kastet. Det är dock intressant att 20 grader nu ger ett längre kast än 60. I figur 2 är det tvärtom.
+Formeln för rörelsen i x-led med luftmotståndet är rimlig eftersom den går mot ett ändligt gränsvärde då tiden går mot positiva oändligheten. Så måste det vara eftersom luftmotståndet till slut kommer få det kastade objektet att stanna upp.
+Modellen för motsvarande rörelse i y-led är också rimlig eftersom den går mot negativa oändligheten då tiden går mot oändligheten. I modellen finns ingen mark på vilken objektet landar. Alltså faller den nedåt i oändlighet då den väl vänt nedåt.
+
+\newpage
+\section*{Matlab kod}
+\lstinputlisting{../kod/inlamning1del2.m}
+
+\end{document}

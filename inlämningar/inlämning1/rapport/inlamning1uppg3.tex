@@ -1,0 +1,56 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{style}
+\usepackage{float}
+\usepackage{amssymb}
+\usepackage[]{mcode}
+\setlength{\parindent}{15pt}
+
+\begin{document}
+
+\title{Uppgift 3}
+\author{Patrik Laurell, Björn Wictorin}
+\maketitle
+
+\section*{Teori}
+För en dämpad svängning gäller allmänt:
+\begin{equation}
+	m\frac{d^2x}{dt^2} + b\frac{dx}{dt} + kx = 0
+\end{equation}
+I uppgiften gäller även randvillkoren $x(0)=0.5$ och $x'(0)=0$. De tre kurvorna i figur 1 ges av 3 olika lösningar till denna diffrentialekvation. Den allmänna lösningen till denna diffrentialekvation ges av
+\begin{equation}
+	x(t) = C_1 e^{r_1 t} + C_2 e^{r_2 t}
+\end{equation}
+där
+$$r = \frac{-b}{2m} \pm \sqrt{\frac{b}{2m}^2 - \omega_0^2}$$
+Ur denna ekvation fås tre fall beroende på konstanterna $k$, $m$ och $b$. $\omega_0 > \frac{b}{2m}$, $\omega_0 = \frac{b}{2m}$ och $\omega_0 < \frac{b}{2m}$. Den svagt dämpade svängningen fås då $\omega_0 > \frac{b}{2m}$ och lösningen ges då av
+$$x(t) = A_0e^{-(b/(2m))t} \cdot cos(\omega_0 t + \delta)$$
+Detta är den enda form av dämpad svängning som ger upphov till en oscillerande rörelse. Enligt modellen antas den dämpande kraften vara proportionell mot hastigheten, vilket ses i ekvation (1), och således närmar sig svängningen assymptotiskt noll då tiden går mot oändligheten.
+\\
+\\
+Den kritiskt dämpade svängningen fås då $\omega_0 = \frac{b}{2m}$. Positionen som funktion av tiden ges för en kritiskt dämpad svängning av
+$$(C_1t + C_2)e^{(-b/(2m))t}$$
+I detta läge är dämpningen sådan att partikeln som oscillerar, återgår så snabbt som möjligt till jämnviktsläget, utan att oscillation uppstår.
+\\
+\\
+Då $\omega_0 < \frac{b}{2m}$ fås en överdämpad svängning. Lösningen till diffrentialekvationen ges då av den allmänna lösningen
+$$x(t) = C_1e^{r_1t} + C_2e^{r_2t} \text{ där } r_1, r_2 \in \mathbb{R} \text{ och } r_1,r_2 < 0$$
+
+\section*{Resultat}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{../bilder/uppg3.pdf}
+	\caption{Positionen som funktion av tiden för en under-, över- respektive kritiskt dämpad svängning.}
+\end{figure}
+Figur 1 visar de grafer som vi genererade med Matlab. Alla tre graferna visar en svängning som utgår från vila från positionen $x = 0.5$ m vid tiden $t = 0$ s. Massan, $m$, och konstanten, $k$, är de samma för alla tre systemen. Dock skiljer sig konstanten för dämpningen, $b$, åt mellan de olika graferna. Det är denna konstant som avgör hurruvida svängningen blir över-, under-, eller kritiskt dämpad.
+
+\section*{Slutsats}
+Man kan ur figur 1 konstatera att den kritiskt dämpade svängningen är den som återgår till jämnviktsläget snabbast. Det ses även att den svagt dämpade svängningen är den enda av svängningarna som faktiskt svänger. Ur figuren framgår också att periodtiden för den svagt dämpade svängningen inte avtar när amplituden gör det.
+\\
+\indent Värt att notera är att fasförskjutningen $\delta$ inte är noll i ekvationen för den svagt dämpade svängningen. Detta trots att svägningen släpps iväg från ändläget utan någon initial hastighet. Det beror på att dämpningen ger upphov till en fasförskjutning.
+
+%\newpage
+%\section*{Matlab kod}
+%\lstinputlisting{../kod/inlamning1del3.m}
+
+\end{document}
