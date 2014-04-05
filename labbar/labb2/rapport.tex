@@ -1,0 +1,48 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{style}
+\setlength{\parindent}{15pt}
+
+\begin{document}
+
+\section{Inledning}
+Många fysikaliska fenomen kan beskrivas med hjälp av oscillerande system. Exempel på sådana fenomen är fjädrar, pendlar med små pendelutslag och spänningar i kretsar med växelspänning. Syftet med denna laboration var att ge en bättre förståelse för de modeller som används för att beskriva olika typer av oscillerande system. Vidare gav laborationen ökad träning i användning av datorprogrammen DataStudio för insamling av mätdata och Matlab för analysering av dessa. Laborationen gav också övning i att använda ett oscilloskop.
+
+\section{Teori}
+ Modellen för ett oscillerande system beskriver ett system i vilket nettokraften på ett objekt verkar för att åteföra det till ett stabilt jämviktsläge. Således kan alla system av denna typ beskrivas som oscillerande. Exempelvis fjädrar som svänger eller växelspänningskretsar. Den återförande kraften är proportionell mot avståndet till jämviktsläget. Detta samband kan, om dämpande krafter försummas, uttryckas matematiskt med följande ekvation:
+\begin{equation}
+	F = -kx
+\end{equation}
+där $k$ är en systemberoende konstant och $x$ är avståndet till systemets jämviktspunkt. Ekvation (1) beskriver alltså en odämpad oscillerande rörelse och ur den kan ett samband för positionen av en partikel som funktion av tiden härledas. Detta ger följande ekvation:
+\begin{equation}
+	x(t) = A \cdot cos(\omega_0t + \delta)
+\end{equation}
+där $\omega_0$ är systemets s.k. egenvinkelfrekvens, $A$ är amplituden av svängningen och $\delta$ är fasförskjutningen. Egenvinkelfrekvensen är den vinkelfrekvens vid vilket systemet svänger om det in påverkas av yttre krafter.
+\\
+\indent Dock är sällan fallet i verkligheten att ett system är odämpat. Krafter från omgivningen dämpar ofta svängningar så att de bromsas. För att beskriva sådana fall används en modell för dämpad svängning. I denna modell antas den dämpande kraften vara proportionell mot hastigheten. Dämpade oscillationer kan beskrivas med följande ekvation:
+\begin{equation}
+	F = -kx - b\frac{dx}{dt} \Longleftrightarrow m\frac{d^2x}{dt^2} + b\frac{dx}{dt} + kx = 0
+\end{equation}
+Ekvation (3) beskriver en andra ordningens diffrentialekvation i $x$. Ur denna ekvation kan formler för tre olika typer av dämpad svängning tas fram. Dessa är svagt dämpande, kritiskt dämpade eller överdämpade. I denna laboration ligger fokus på svagt dämpade svängningar. Dessa är de enda dämpade svängningar som ger upphov till en oscillerande rörelse. För en svagt dämpad svängning ges positionen som funktion av tiden av
+\begin{equation}
+	x(t) = A_0e^{-\frac{b}{2m}t}cos(\omega't + \delta))
+\end{equation}
+där $\omega'$ är den frekvens som systemet svänger med. $\omega'$ bestäms med ekvationen:
+\begin{equation}
+	\omega' = \sqrt{\omega_0^2-(\frac{b}{2m})^2}
+\end{equation}
+\\
+\indent För att en dämpad svängning inte ska stanna upp måste energi tillföras. Svängningar där energi tillförs kallas drivna svängningar. Ett svängande system kan vara både dämpat och drivet samtidigt. Vilken påverkan den drivande kraften får på svängningen beror på vilken fekvens den drivande kraften har, samt hur denna förhåller sig till systemets svängningsfrekvens $\omega'$. Om den drivande frekvensen ligger nära $\omega'$ uppstår resonans, vilket innebär att energiöverföringen från den drivande kraften till systemet blir mest effektiv.
+
+\section{Apparatur}
+
+
+\section{Utförande}
+
+\section{Resultat}
+
+\section{Diskussion}
+
+\end{document}
