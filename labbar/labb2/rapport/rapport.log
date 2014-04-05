@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.8.26)  3 APR 2014 18:56
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.8.26)  6 APR 2014 00:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -595,37 +595,102 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2001/04/09 non-zero parskip adjustments
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2012/04/03 v0.4s Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count127
+\calc@Bcount=\count128
+\calc@Adimen=\dimen136
+\calc@Bdimen=\dimen137
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count129
+\calc@Cskip=\skip57
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2012/04/03 v0.4s Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box57
+\AM@toc@title=\toks27
+\c@AM@survey=\count130
+\AM@templatesizebox=\box58
+)
+(/usr/share/texlive/texmf-dist/tex/latex/overpic/overpic.sty
+Package: overpic 2010/09/13 v0.53  Overwriting graphics
+
+Package: overpic v0.53 <2010/09/13> (RN)
+(/usr/share/texlive/texmf-dist/tex/latex/eepic/epic.sty
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count131
+\d@lta=\count132
+\@delta=\dimen138
+\@@delta=\dimen139
+\@gridcnt=\count133
+\@joinkind=\count134
+\@dotgap=\dimen140
+\@ddotgap=\dimen141
+\@x@diff=\count135
+\@y@diff=\count136
+\x@diff=\dimen142
+\y@diff=\dimen143
+\@dotbox=\box59
+\num@segments=\count137
+\num@segmentsi=\count138
+\@datafile=\read2
+)
+overpic: absolute positioning in \unitlength 
 ) (./rapport.aux)
 \openout1 = `rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count127
-\scratchdimen=\dimen136
-\scratchbox=\box57
-\nofMPsegments=\count128
-\nofMParguments=\count129
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count130
-\MPscratchDim=\dimen137
-\MPnumerator=\count131
-\makeMPintoPDFobject=\count132
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count139
+\scratchdimen=\dimen144
+\scratchbox=\box60
+\nofMPsegments=\count140
+\nofMParguments=\count141
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count142
+\MPscratchDim=\dimen145
+\MPnumerator=\count143
+\makeMPintoPDFobject=\count144
+\everyMPtoPDFconversion=\toks29
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -644,8 +709,8 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box58
-Package hyperref Info: Link coloring OFF on input line 8.
+\AtBeginShipoutBox=\box61
+Package hyperref Info: Link coloring OFF on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -653,56 +718,161 @@ Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count133
+\c@section@level=\count145
 )
-LaTeX Info: Redefining \ref on input line 8.
-LaTeX Info: Redefining \pageref on input line 8.
-LaTeX Info: Redefining \nameref on input line 8.
+LaTeX Info: Redefining \ref on input line 17.
+LaTeX Info: Redefining \pageref on input line 17.
+LaTeX Info: Redefining \nameref on input line 17.
 
 (./rapport.out) (./rapport.out)
 \@outlinefile=\write3
 \openout3 = `rapport.out'.
 
-LaTeX Info: Redefining \celsius on input line 8.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 8.
+LaTeX Info: Redefining \celsius on input line 17.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 17.
+
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 8.
-Package gensymb Info: Using \Omega for \ohm on input line 8.
+LaTeX Info: Redefining \ohm on input line 17.
+Package gensymb Info: Using \Omega for \ohm on input line 17.
 
 Package gensymb Warning: Not defining \micro.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 15.
+LaTeX Font Info:    Try loading font information for U+msa on input line 21.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 15.
+LaTeX Font Info:    Try loading font information for U+msb on input line 21.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./rapport.toc)
+\tf@toc=\write4
+\openout4 = `rapport.toc'.
+
+ [1]
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.54 \end{equation}
+                    [1]
+Underfull \hbox (badness 10000) in paragraph at lines 54--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 79.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 79.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
+
+ []
+
+[3] <../bilder/pos_vs_tid_uppg1.png, id=122, 1027.84pt x 878.28125pt>
+File: ../bilder/pos_vs_tid_uppg1.png Graphic file (type png)
+
+<use ../bilder/pos_vs_tid_uppg1.png>
+Package pdftex.def Info: ../bilder/pos_vs_tid_uppg1.png used on input line 107.
+
+(pdftex.def)             Requested size: 276.00105pt x 235.83916pt.
+
+<../bilder/fasdiagram_uppg1.png, id=123, 1027.84pt x 878.28125pt>
+File: ../bilder/fasdiagram_uppg1.png Graphic file (type png)
+
+<use ../bilder/fasdiagram_uppg1.png>
+Package pdftex.def Info: ../bilder/fasdiagram_uppg1.png used on input line 113.
+
+(pdftex.def)             Requested size: 276.00105pt x 235.83916pt.
+ [4 <../bilder/pos_vs_tid_uppg1.png>]
+<../bilder/energigraf_uppg1.pdf, id=131, 449.68pt x 338.26375pt>
+File: ../bilder/energigraf_uppg1.pdf Graphic file (type pdf)
+
+<use ../bilder/energigraf_uppg1.pdf>
+Package pdftex.def Info: ../bilder/energigraf_uppg1.pdf used on input line 119.
+
+(pdftex.def)             Requested size: 276.00105pt x 207.62578pt.
+
+<../bilder/pos_vs_ang_uppg2b.png, id=132, 1027.84pt x 878.28125pt>
+File: ../bilder/pos_vs_ang_uppg2b.png Graphic file (type png)
+
+<use ../bilder/pos_vs_ang_uppg2b.png>
+Package pdftex.def Info: ../bilder/pos_vs_ang_uppg2b.png used on input line 128
+.
+(pdftex.def)             Requested size: 276.00105pt x 235.83916pt.
+ [5 <../bilder/fasdiagram_uppg1.png> <../bilder/energigraf_uppg1.pdf>]
+Overfull \hbox (8.58696pt too wide) in paragraph at lines 134--135
+\T1/cmr/m/n/10 Svängningens fre-kvens upp-mät-tes till 2.3kHz. Kom-po-nent-vär-
+de-na för LCR-kretsen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+[6 <../bilder/pos_vs_ang_uppg2b.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+<../bilder/energigraf_uppg1_ideal.pdf, id=159, 449.68pt x 338.26375pt>
+File: ../bilder/energigraf_uppg1_ideal.pdf Graphic file (type pdf)
+
+<use ../bilder/energigraf_uppg1_ideal.pdf>
+Package pdftex.def Info: ../bilder/energigraf_uppg1_ideal.pdf used on input lin
+e 144.
+(pdftex.def)             Requested size: 276.00105pt x 207.62578pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+ []
+
+[7 <../bilder/energigraf_uppg1_ideal.pdf>]
+Overfull \hbox (4.04652pt too wide) in paragraph at lines 153--154
+\T1/cmr/m/n/10 Den upp-mät-ta re-so-nans-fre-kven-sen var 3.35s$[]$. Den-na fre
+-kvens lig-ger nä-ra system-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 160.
+[8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
  (./rapport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 160.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 160.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: FDF655CBEFFCDC80C8A681582449DD4E;263.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
+(rerunfilecheck)             Checksum: CAA7F6CA963DE065CB333B442E962B52;908.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 160.
  ) 
 Here is how much of TeX's memory you used:
- 7973 strings out of 495044
- 114686 string characters out of 3181318
- 202089 words of memory out of 3000000
- 11035 multiletter control sequences out of 15000+200000
- 8494 words of font info for 28 fonts, out of 3000000 for 9000
+ 8948 strings out of 495044
+ 129690 string characters out of 3181318
+ 227388 words of memory out of 3000000
+ 11926 multiletter control sequences out of 15000+200000
+ 17840 words of font info for 54 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 43i,5n,40p,595b,339s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,9n,40p,1148b,390s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -712,12 +882,16 @@ ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfrm1000.pfb>
-Output written on rapport.pdf (2 pages, 109278 bytes).
+/usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfrm1728.pfb>
+Output written on rapport.pdf (10 pages, 328010 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 241 PDF objects out of 1000 (max. 8388607)
+ 199 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
