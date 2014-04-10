@@ -2,6 +2,7 @@
 \usepackage{style}
 \usepackage{float}
 \usepackage[]{mcode}
+\setlength{\parindent}{15pt}
 \begin{document}
 \title{Uppgift 2}
 \author{Patrik Laurell, Björn Wictorin}
@@ -17,7 +18,8 @@ Rörelsen i y-led kan skrivas som:
 \begin{equation}
 	y(t)=v_0\cdot sin(\phi)\cdot t - \frac{gt^2}{2}
 \end{equation}
-där $\phi$ är vinkeln mot horisontalplanet.
+där $\phi$ är utkastsvinkeln relativt horisontalplanet.\\
+
 I en mer komplicerad modell tas luftmotståndet med i beräkningarna. I den modell för luftmotstånd som använts i uppgift 2b antas luftmotståndet ge upphov till en bromsande kraft som ger en acceleration riktad mot föremålets rörelseriktning. Accelerationen är direkt proportionell mot hastigheten med proportionalitetskonstanten 1. Denna modell för luftmotstånd ger upphov till följande differentialekvationer för y- respektive x-led:
 \begin{align}
    \frac{d^2x}{dt^2}=-k\frac{dx}{dt}
@@ -37,7 +39,7 @@ Se bifogat blad för lösning av differentialekvationerna.
 \subsection*{Resultat}
 
 \subsubsection*{a) Kastparabel utan luftmotstånd}
-Plottning av uttrycken för rörelse i x- och y-led ovan ger upphov till graferna i figur 1 nedan. De olika kastbanorna har kastvinklar på 20, 40 och 60 grader relativt horisontalplanet..
+Plottning av uttrycken för rörelse i x- och y-led ovan ger upphov till graferna i figur 1 nedan. De olika kastbanorna har kastvinklar på 20, 40 och 60 grader relativt horisontalplanet.
 \\
 \begin{figure}[H]
 	\centering
@@ -58,16 +60,13 @@ Plottning av uttrycken för rörelse i x- och y-led med luftmotstånd ger graferna 
 
 \subsection*{Slutsatser}
 \subsubsection*{a) Kastparabel utan luftmotstånd}
-I figur 1 ger 40 graders vinkel det längsta kastet av de tre utkastvinklarna. Allra längst kast ger 45 grader. För härledning av detta, se bifogat blad. Med denna modell blir kastbanorna parabler.
+I figur 1 ger 40 graders vinkel det längsta kastet av de tre utkastvinklarna. Allra längst kast hade 45 graders kastvinkel gett. För härledning av detta, se bifogat blad. Med denna modell blir kastbanorna parabler.
 
 \subsubsection*{b) Kastparabel med luftmotstånd}
 Kastbanorna i figur 2 har både lägre höjd och kortare räckvidd än banorna i figur 1. Detta är rimligt med tanke på att luftmotståndet bromsar upp rörelsen.
-I figur 2 är det precis som i figur 1 40 graders utkastvinkel som ger längsta kastet. Det är dock intressant att 20 grader nu ger ett längre kast än 60. I figur 2 är det tvärtom.
+Värt att notera är även att kastbanorna inte är symmetriska. Vinkeln mellan det kastade objektets hastighet och marken är större då det slår ner i marken än vad den är när objektet kastas iväg. Detta beror på att luftmotståndet bromsar upp rörelsen efterhand som den far genom luften. Alltså är hastigheten i horisontell led lägre då objektet närmar sig marken.
+I figur 2 är det precis som i figur 1 40 graders utkastvinkel som ger längsta kastet. Det är dock intressant att 20 grader nu ger ett längre kast än 60. I figur 1 är det tvärtom. Det skulle kunna bero på att kasten med 60 graders utkastvinkel är en längre tid i luften än det med 20 graders vinkel, och därför hinner påverkas mer av luftmotståndet. Tiden som kastet med 60 graders vinkel 
 Formeln för rörelsen i x-led med luftmotståndet är rimlig eftersom den går mot ett ändligt gränsvärde då tiden går mot positiva oändligheten. Så måste det vara eftersom luftmotståndet till slut kommer få det kastade objektet att stanna upp.
 Modellen för motsvarande rörelse i y-led är också rimlig eftersom den går mot negativa oändligheten då tiden går mot oändligheten. I modellen finns ingen mark på vilken objektet landar. Alltså faller den nedåt i oändlighet då den väl vänt nedåt.
-
-\newpage
-\section*{Matlab kod}
-\lstinputlisting{../kod/inlamning1del2.m}
 
 \end{document}
