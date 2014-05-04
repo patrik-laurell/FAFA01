@@ -45,7 +45,7 @@ där $\omega_0$ är systemets s.k. egenvinkelfrekvens, $A$ är amplituden av sv�
 \end{equation}
 Ekvation (3) beskriver en andra ordningens differentialekvation i $x$. Ur denna ekvation kan formler för tre olika typer av dämpade svängningar tas fram. Dessa är svagt dämpade, kritiskt dämpade eller överdämpade. I denna laboration ligger fokus på svagt dämpade svängningar. Dessa är de enda dämpade svängningar som ger upphov till en oscillerande rörelse. För en svagt dämpad svängning ges positionen som funktion av tiden av:
 \begin{equation}
-	x(t) = A_0e^{-\frac{b}{2m}t}cos(\omega't + \delta))
+	x(t) = A_0e^{-\frac{b}{2m}t}\cos(\omega't + \delta))
 \end{equation}
 där $\omega'$ är den frekvens som systemet svänger med. $\omega'$ bestäms med ekvationen:
 \begin{equation}
@@ -55,7 +55,7 @@ I ekvation (4) ser man att amplituden är exponentiellt avtagande. Den tid det t
 \\
 \indent För att en dämpad svängning inte ska stanna upp måste energi tillföras. Svängningar där energi tillförs kallas drivna svängningar. Ett svängande system kan vara både dämpat och drivet samtidigt. I modellen för ett dämpat och drivet system antas den drivande kraften vara periodisk och den dämpande proportionell mot hastigheten. Systemet beskrivs med differentialekvationen
 \begin{equation}
-F = -kx - b\frac{dx}{dt} + F_0cos(\omega t) \Longleftrightarrow\frac{d^2x}{dt^2} + \frac{b}{m}\cdot\frac{dx}{dt} + \omega_0^2x = \frac{F_0}{m} cos(\omega t)
+F = -kx - b\frac{dx}{dt} + F_0\cos(\omega t) \Longleftrightarrow\frac{d^2x}{dt^2} + \frac{b}{m}\cdot\frac{dx}{dt} + \omega_0^2x = \frac{F_0}{m} \cos(\omega t)
 \end{equation}
 där $\omega$ är den vinkelfrekvensen med vilken den drivande kraften driver systemet.
 Vilken påverkan den drivande kraften ha på systemet beror på hur $\omega$ förhåller sig  till systemets svängningsfrekvens $\omega'$. Lösningen till differentialekvationen är:
@@ -68,7 +68,15 @@ Vilken påverkan den drivande kraften ha på systemet beror på hur $\omega$ fö
 \end{cases}
 \end{equation}
 där $A$ är amplituden för svängningen och $\delta$ är fasförskjutningen. Om den drivande frekvensen ligger nära $\omega'$ uppstår resonans, vilket innebär att energiöverföringen från den drivande kraften till systemet blir maximal. Detta ses ur lösningen till differentialekvationen. I ekvation (7) kan ses att ju närmre $\omega$ kommer $\omega_0$ desto större blir amplituden. Ekvationen för fasförskjutningen ger att $\delta \rightarrow \frac{\pi}{2}$ då $\omega \rightarrow \omega_0$. Vid resonans är alltså fasförskjutningen mellan den drivande kraften och systemets svängning $\frac{\pi}{2}$ radianer. För drivande frekvenser över resonansfrekvensen ligger $\delta$ mellan $\frac{\pi}{2}$ och $\pi$ radianer. Ju högre frekvensen blir, desto närmre $\pi$ går $\delta$. För drivande frekvenser under resonansfrekvensen ligger $\delta$ mellan $\frac{\pi}{2}$ och noll radianer. Ju lägre frekvensen blir, desto närmre kommer $\delta$ noll. Systemets svängning ligger i alla tre fallen efter den drivande kraftens svängning.\\
-\indent I en elektrisk LCR-krets, dvs. en krets med spolar, kondensatorer och resistorer, uppstår svängningar i spänningen då kretsen matas med en fyrkantsvåg. Dessa svängningar utgör ett dämpad oscillerande system eftersom elektrisk energi går över till värmeenergi i kretsens resistor. Med ett oscilloskop kan dessa svängningar studeras.
+\indent I en elektrisk LCR-krets, dvs. en krets med spolar, kondensatorer och resistorer, uppstår svängningar i spänningen då kretsen matas med en fyrkantsvåg. Dessa svängningar utgör ett dämpad oscillerande system eftersom elektrisk energi går över till värmeenergi i kretsens resistor. Med ett oscilloskop kan dessa svängningar studeras. I fallet med en LCR-krets bestäms tidskonstanten med formeln: 
+\begin{equation}
+\tau = \frac{L}{R}
+\end{equation}
+Egenvinkelfrekvensen för en LCR-krets ges av:
+\begin{equation}
+\omega_0 = \frac{1}{\sqrt{LC}}
+\end{equation}
+denna frekvens är ej att blanda ihop med $\omega'$, vilket är frekvensen med vilken systemet kommer att svänga.
 
 \pagebreak
 \section{Apparatur}
@@ -128,11 +136,11 @@ Genom iakttagande av systemet bestämdes resonansfrekvensen till $\omega=3.36$s\
 Då den drivande kraften hade en frekvens under resonansfrekvensen blev systemets fasförskjutning mindre än $\frac{\pi}{2}$ radianer, vilket syns på den gröna grafen i figur 4. Då drivfrekvensen motsvarade resonansfrekvensen var fasförskjutningen ungefär $\frac{\pi}{2}$ radianer. Detta syns i den röda grafen i figur 4. För frekvenser över resonansfrekvensen närmade sig fasförskjutningen $\pi$ radianer, vilket syns i den rosa grafen i figur 4. I samtliga tre fall var fasförskjutningen negativ relativt den drivande kraften.
 
 \subsection{En LCR-krets}
-Svängningens frekvens uppmättes till 2.3kHz. Komponentvärdena för LCR-kretsen var 47mF för kondensatorn och 9mH för spolen. Vid den svagt dämpade svängningen var trimpotentiometern inställd på 5.0$\Omega$. Spolen hade en inre resistans på 2.5$\Omega$. Den totala resistansen i kretsen var alltså 7.5$\Omega$. Tidskonstanten för svängningens exponentiella dämpning bestämdes till 1.92ms.
+Svängningens frekvens uppmättes till 2.3 kHz. Komponentvärdena för LCR-kretsen var 47mF för kondensatorn och 9 mH för spolen. Vid den svagt dämpade svängningen var trimpotentiometern inställd på 5.0$\Omega$. Spolen hade en inre resistans på 2.5$\Omega$. Den totala resistansen i kretsen var alltså 7.5$\Omega$. Tidskonstanten för svängningens exponentiella dämpning bestämdes till 0.96 ms.
 
 \section{Diskussion}
 \subsection{Det dämpade men odrivna systemet}
-Systemets egenvinkelfrekvens uppmättes till 3,46s\textsuperscript{-1}. Detta hade kunnat förändras genom att en vikt med en annan massa hängdes i fjädern eller genom att fjädern byttes ut mot en fjäder med en annan fjäderkonstant. Frekvensen hade också kunnat förändras genom att den bromsande kraften ökades, exempelvis genom att skivan i änden på fjädern gjordes mindre. Detta skulle nämligen minska luftmotståndet för svängningen.\\
+Systemets egenvinkelfrekvens uppmättes till 3,46 s\textsuperscript{-1}. Detta hade kunnat förändras genom att en vikt med en annan massa hängdes i fjädern eller genom att fjädern byttes ut mot en fjäder med en annan fjäderkonstant. Frekvensen hade också kunnat förändras genom att den bromsande kraften ökades, exempelvis genom att skivan i änden på fjädern gjordes mindre. Detta skulle nämligen minska luftmotståndet för svängningen.\\
 \indent Att fasdiagrammet ser ut som en spiral beror på att amplituden för svängningen avtar efterhand som den bromsas ner. Samtidigt avtar då hastigheten eftersom frekvensen ska bevaras på samma nivå. Att spiralen går medurs beror på att fjädern har en negativ hastighet då den kommer från det positiva ändläget. Sedan har den en positiv hastighet när den kommer från det negativa ändläget. Man skulle alltså inte kunna ändra spiralen så att den gick moturs.
 \begin{figure}[H]
 \centering
@@ -144,11 +152,12 @@ Figur 5 visar en schematiskt bild över hur energinivån teoretiskt förändras 
 \indent Ett annat problem vid mätningarna var att fjädern svängde en aning i sidled, vilket medförde att avståndet mellan plattan i fjäderns ände och sensorn inte varierade på riktigt samma sätt som fjäderns längd varierade då fjädern svängde.
 
 \subsection{Det drivna systemet}
-Den uppmätta resonansfrekvensen var 3.35s\textsuperscript{-1}. Denna frekvens ligger nära systemvinkelfekvensen för det dämpade systemet, vilken låg på 3.46s\textsuperscript{-1}. Eftersom resonans uppstår då den drivande kraftens frekvens ligger nära systemets vinkelfrekvens, stämde värdet på den observerade resonansfrekvensen väl överens med det förväntade.\\
+Den uppmätta resonansfrekvensen var 3.35 s\textsuperscript{-1}. Denna frekvens ligger nära systemvinkelfekvensen för det dämpade systemet, vilken låg på 3.46 s\textsuperscript{-1}. Eftersom resonans uppstår då den drivande kraftens frekvens ligger nära systemets vinkelfrekvens, stämde värdet på den observerade resonansfrekvensen väl överens med det förväntade.\\
 \indent Figur 4 visar att systemets fasförskjutning för drivfrekvenser vid, över och under resonansfrekvensen stämde överens med teorin. Att plotten blev en cirkel då resonans uppstod visar att den drivande kraften och fjäderns rörelse låg $\frac{\pi}{2}$ radianer ur fas. Att det istället blev en ellips som lutar åt vänster då den drivande kraftens frekvens var större än resonansfrekvensen tyder på att fasförskjutningen närmade sig $\pi$ radianer. Hade den drivande frekvensen höjts upp så högt att fasförskjutningen faktiskt blev $\pi$ radianer skulle ellipsen bara bli en linje med negativ derivata. På samma sätt var det överensstämmande med teorin att det för drivande frekvenser under resonansfrekvensen blev en ellips lutande åt höger.
 
 \subsection{En LCR-krets}
-Som beskrivs i teoridelen kan LCR-kretsens svängningsfrekvens bestämmas utifrån komponentvärdena för spolen respektive kondensatorn. Den teoretiska svängningsfrekvensen blir utifrån dessa 2.44kHz. Detta värde ligger nära det uppmätta värdet på 2.3kHz.\\
+Som beskrivs i teoridelen kan LCR-kretsens svängningsfrekvens bestämmas utifrån komponentvärdena för spolen respektive kondensatorn. Den teoretiska svängningsfrekvensen blir utifrån dessa värden med hjälp av ekvation (9) till 2.44 kHz. Detta värde ligger nära det uppmätta värdet på 2.3 kHz.\\
+\indent Enligt ekvation (8) i teorin är värdet på dämpningskonstanten $\tau = 1.2 $ ms. Detta ligger en bit över det värde erhölls från mätningarna, vilket var 0.96 s. Detta beror till största del på att resistansen i kretsen är större än det resistansvärde som $\tau$ beräknades utifrån. Då $\tau$ beräknades försummades nämligen resistansen i alla ledningar. Vid en ökning av resistansen ses i ekvation (8) att $\tau$ minskar. Att ta med kablarnas resistans i beräkningarna skulle alltså ge ett teoretiskt värde närmare det uppmätta. Vid en upprepning av laborationen hade det varit bra att mäta upp den faktiska resistansen i kretsen, för att kunna beräkna ett mer korrekt värde på $\tau$. Även komponentvärdena på spolen respektive kondensatorn kan ha avvikt något från de angivna värdena.\\
 \indent En LCR-krets lämpar sig väl för att studera dämpade svängningar eftersom den dämpande kraften beror på resistansen, vilken är en faktor som kan kontrolleras och regleras noggrant.
 
 \end{document}

@@ -1,12 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.8.26)  10 APR 2014 14:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.2)  10 APR 2014 16:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **rapport.tex
 (./rapport.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, sw
-edish, loaded.
+Babel <3.9f> and hyphenation patterns for 26 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -33,7 +32,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box27
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2000/07/18 v2.13 AMS math features
+Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
@@ -53,20 +52,20 @@ Package: amsbsy 1999/11/29 v1.2d
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count88
-LaTeX Info: Redefining \frac on input line 211.
+LaTeX Info: Redefining \frac on input line 210.
 \uproot@=\count89
 \leftroot@=\count90
-LaTeX Info: Redefining \overline on input line 307.
+LaTeX Info: Redefining \overline on input line 306.
 \classnum@=\count91
 \DOTSCASE@=\count92
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box28
 \strutbox@=\box29
 \big@size=\dimen105
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count93
 \c@MaxMatrixCols=\count94
 \dotsspace@=\muskip10
@@ -87,8 +86,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 ) (./style.sty
 Package: style 
 
@@ -349,27 +348,27 @@ Now handling font encoding U ...
    defining Unicode char U+2423 (decimal 9251)
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2008/07/08 v3.8m The Babel package
+Package: babel 2013/05/16 v3.9f The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/swedish.ldf
+(/usr/share/texlive/texmf-dist/tex/generic/babel-swedish/swedish.ldf
 Language: swedish 2005/03/31 v2.3d Swedish support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2008/07/08 v3.8m Babel common definitions
+File: babel.def 2013/05/16 v3.9f Babel common definitions
 \babel@savecnt=\count101
 \U@D=\dimen114
 )
 Package babel Info: Making " an active character on input line 90.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2009/06/22 v3.00
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
@@ -448,16 +447,18 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@bottom=\skip53
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2012/02/19 v3.2f Customizing captions (AR)
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen127
 \captionmargin@=\dimen128
 \captionwidth=\dimen129
-\caption@indent=\dimen130
-\caption@parindent=\dimen131
-\caption@hangindent=\dimen132
+\caption@tempdima=\dimen130
+\caption@indent=\dimen131
+\caption@parindent=\dimen132
+\caption@hangindent=\dimen133
 )
 \c@ContinuedFloat=\count116
 Package caption Info: float package is loaded.
@@ -465,7 +466,7 @@ Package caption Info: subfigure package is loaded.
 Package caption Info: wrapfig package is loaded.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
@@ -515,15 +516,18 @@ Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen133
+\@linkdim=\dimen134
 \Hy@linkcounter=\count117
 \Hy@pagecounter=\count118
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
@@ -532,32 +536,33 @@ Now handling font encoding PD1 ...
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4062.
-Package hyperref Info: Link nesting OFF on input line 4067.
-Package hyperref Info: Hyper index ON on input line 4070.
-Package hyperref Info: Plain pages OFF on input line 4077.
-Package hyperref Info: Backreferencing OFF on input line 4082.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4300.
+Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count120
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4653.
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen135
 \Fld@menulength=\count121
-\Field@Width=\dimen134
-\Fld@charsize=\dimen135
-Package hyperref Info: Hyper figures OFF on input line 5773.
-Package hyperref Info: Link nesting OFF on input line 5778.
-Package hyperref Info: Hyper index ON on input line 5781.
-Package hyperref Info: backreferencing OFF on input line 5788.
-Package hyperref Info: Link coloring OFF on input line 5793.
-Package hyperref Info: Link coloring with OCG OFF on input line 5798.
-Package hyperref Info: PDF/A mode OFF on input line 5803.
-LaTeX Info: Redefining \ref on input line 5843.
-LaTeX Info: Redefining \pageref on input line 5847.
+\Field@Width=\dimen136
+\Fld@charsize=\dimen137
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
 \Hy@abspage=\count122
 \c@Item=\count123
 \c@Hfootnote=\count124
@@ -566,7 +571,7 @@ LaTeX Info: Redefining \pageref on input line 5847.
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count125
 \c@bookmark@seq@number=\count126
 
@@ -608,7 +613,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 Package color Info: Driver file: pdftex.def on input line 130.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2012/04/03 v0.4s Insert pages of external PDF documents (AM)
+Package: pdfpages 2013/05/30 v0.4u Insert pages of external PDF documents (AM)
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
@@ -617,8 +622,8 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count127
 \calc@Bcount=\count128
-\calc@Adimen=\dimen136
-\calc@Bdimen=\dimen137
+\calc@Adimen=\dimen138
+\calc@Bdimen=\dimen139
 \calc@Askip=\skip55
 \calc@Bskip=\skip56
 LaTeX Info: Redefining \setlength on input line 76.
@@ -630,7 +635,7 @@ LaTeX Info: Redefining \addtolength on input line 77.
 Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2012/04/03 v0.4s Pdfpages driver for pdfTeX (AM)
+File: pppdftex.def 2013/05/30 v0.4u Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box57
 \AM@toc@title=\toks27
@@ -645,16 +650,16 @@ Package: overpic v0.53 <2010/09/13> (RN)
 Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
 \@@multicnt=\count131
 \d@lta=\count132
-\@delta=\dimen138
-\@@delta=\dimen139
+\@delta=\dimen140
+\@@delta=\dimen141
 \@gridcnt=\count133
 \@joinkind=\count134
-\@dotgap=\dimen140
-\@ddotgap=\dimen141
+\@dotgap=\dimen142
+\@ddotgap=\dimen143
 \@x@diff=\count135
 \@y@diff=\count136
-\x@diff=\dimen142
-\y@diff=\dimen143
+\x@diff=\dimen144
+\y@diff=\dimen145
 \@dotbox=\box59
 \num@segments=\count137
 \num@segmentsi=\count138
@@ -681,13 +686,13 @@ LaTeX Font Info:    ... okay on input line 17.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count139
-\scratchdimen=\dimen144
+\scratchdimen=\dimen146
 \scratchbox=\box60
 \nofMPsegments=\count140
 \nofMParguments=\count141
 \everyMPshowfont=\toks28
 \MPscratchCnt=\count142
-\MPscratchDim=\dimen145
+\MPscratchDim=\dimen147
 \MPnumerator=\count143
 \makeMPintoPDFobject=\count144
 \everyMPtoPDFconversion=\toks29
@@ -713,7 +718,7 @@ Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
@@ -742,120 +747,259 @@ Package gensymb Warning: Not defining \micro.
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 21.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 21.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [1
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 22.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 22.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 22.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 22.
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./rapport.toc)
 \tf@toc=\write4
 \openout4 = `rapport.toc'.
 
- [1]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) 
-has been already used, duplicate ignored
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 26.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 26.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 26.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 26.
+ [1]
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 29.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 29.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 32.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 32.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 57.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 57.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 57.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 57.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.57 \begin{equation}
-                      [1] [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 77.
+                      [1]
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 82.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 82.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 82.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 82.
+ [2]
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 82.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 82.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 85.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 77.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 95.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 95.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 96.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 96.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 99.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 99.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 102.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 102.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 106.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 106.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 106.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 106.
  [3]
-<../bilder/pos_vs_tid_uppg1.png, id=122, 1027.84pt x 878.28125pt>
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 107.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 107.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 108.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 108.
+
+<../bilder/pos_vs_tid_uppg1.png, id=124, 1027.84pt x 878.28125pt>
 File: ../bilder/pos_vs_tid_uppg1.png Graphic file (type png)
 
 <use ../bilder/pos_vs_tid_uppg1.png>
-Package pdftex.def Info: ../bilder/pos_vs_tid_uppg1.png used on input line 104.
+Package pdftex.def Info: ../bilder/pos_vs_tid_uppg1.png used on input line 112.
 
 (pdftex.def)             Requested size: 276.00105pt x 235.83916pt.
 
-<../bilder/fasdiagram_uppg1.png, id=123, 1027.84pt x 878.28125pt>
+<../bilder/fasdiagram_uppg1.png, id=125, 1027.84pt x 878.28125pt>
 File: ../bilder/fasdiagram_uppg1.png Graphic file (type png)
 
 <use ../bilder/fasdiagram_uppg1.png>
-Package pdftex.def Info: ../bilder/fasdiagram_uppg1.png used on input line 110.
+Package pdftex.def Info: ../bilder/fasdiagram_uppg1.png used on input line 118.
 
 (pdftex.def)             Requested size: 276.00105pt x 235.83916pt.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 121.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 121.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 121.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 121.
  [4 <../bilder/pos_vs_tid_uppg1.png>]
-<../bilder/energigraf_uppg1.pdf, id=131, 449.68pt x 338.26375pt>
+<../bilder/energigraf_uppg1.pdf, id=133, 449.68pt x 338.26375pt>
 File: ../bilder/energigraf_uppg1.pdf Graphic file (type pdf)
 
 <use ../bilder/energigraf_uppg1.pdf>
-Package pdftex.def Info: ../bilder/energigraf_uppg1.pdf used on input line 116.
+Package pdftex.def Info: ../bilder/energigraf_uppg1.pdf used on input line 124.
 
 (pdftex.def)             Requested size: 276.00105pt x 207.62578pt.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 129.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 129.
 
-<../bilder/pos_vs_ang_uppg2b.png, id=132, 1027.84pt x 878.28125pt>
+<../bilder/pos_vs_ang_uppg2b.png, id=134, 1027.84pt x 878.28125pt>
 File: ../bilder/pos_vs_ang_uppg2b.png Graphic file (type png)
 
 <use ../bilder/pos_vs_ang_uppg2b.png>
-Package pdftex.def Info: ../bilder/pos_vs_ang_uppg2b.png used on input line 125
+Package pdftex.def Info: ../bilder/pos_vs_ang_uppg2b.png used on input line 133
 .
 (pdftex.def)             Requested size: 276.00105pt x 235.83916pt.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 135.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 135.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 135.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 135.
  [5 <../bilder/fasdiagram_uppg1.png> <../bilder/energigraf_uppg1.pdf>]
-Overfull \hbox (8.58696pt too wide) in paragraph at lines 131--132
-\T1/cmr/m/n/10 Svängningens fre-kvens upp-mät-tes till 2.3kHz. Kom-po-nent-vär-
-de-na för LCR-kretsen
- []
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 138.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 138.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 141.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 141.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 142.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 142.
 
-<../bilder/energigraf_uppg1_ideal.pdf, id=153, 449.68pt x 338.26375pt>
+<../bilder/energigraf_uppg1_ideal.pdf, id=155, 449.68pt x 338.26375pt>
 File: ../bilder/energigraf_uppg1_ideal.pdf Graphic file (type pdf)
 
 <use ../bilder/energigraf_uppg1_ideal.pdf>
 Package pdftex.def Info: ../bilder/energigraf_uppg1_ideal.pdf used on input lin
-e 139.
+e 147.
 (pdftex.def)             Requested size: 276.00105pt x 207.62578pt.
- [6 <../bilder/pos_vs_ang_uppg2b.png>] [7 <../bilder/energigraf_uppg1_ideal.pdf
->]
-Overfull \hbox (4.04652pt too wide) in paragraph at lines 147--149
-\T1/cmr/m/n/10 Den upp-mät-ta re-so-nans-fre-kven-sen var 3.35s$[]$. Den-na fre
--kvens lig-ger nä-ra system-
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 149.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 149.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 149.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 149.
+ [6 <../bilder/pos_vs_ang_uppg2b.png>]
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 153.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 153.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 153.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 153.
+ [7 <../bilder/energigraf_uppg1_ideal.pdf>]
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 154.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 154.
+
+Overfull \hbox (6.2682pt too wide) in paragraph at lines 155--157
+\T1/cmr/m/n/10 Den upp-mät-ta re-so-nans-fre-kven-sen var 3.35 s$[]$. Den-na fr
+e-kvens lig-ger nä-ra system-
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 154.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 158.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 158.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 163.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 163.
+Package babel Info: Redefining swedish shorthand "|
+(babel)             in language  on input line 163.
+Package babel Info: Redefining swedish shorthand "~
+(babel)             in language  on input line 163.
 [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 154.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
  (./rapport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 163.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 163.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
 (rerunfilecheck)             Checksum: CAA7F6CA963DE065CB333B442E962B52;908.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 154.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 163.
  ) 
 Here is how much of TeX's memory you used:
- 8948 strings out of 495044
- 129690 string characters out of 3181318
- 227388 words of memory out of 3000000
- 11926 multiletter control sequences out of 15000+200000
- 17840 words of font info for 54 fonts, out of 3000000 for 9000
- 14 hyphenation exceptions out of 8191
- 43i,9n,40p,1152b,365s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sfrm1728.pfb>
-Output written on rapport.pdf (10 pages, 327880 bytes).
+ 9186 strings out of 494468
+ 133696 string characters out of 6166396
+ 230650 words of memory out of 5000000
+ 12211 multiletter control sequences out of 15000+600000
+ 17840 words of font info for 54 fonts, out of 8000000 for 9000
+ 350 hyphenation exceptions out of 8191
+ 43i,9n,40p,1152b,369s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </tmp/texfonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </tmp/texfonts/pk/ljfou
+r/jknappen/ec/ecbx1200.600pk> </tmp/texfonts/pk/ljfour/jknappen/ec/ecrm1000.600
+pk> </tmp/texfonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </tmp/texfonts/pk/ljfo
+ur/jknappen/ec/ecbx1440.600pk> </tmp/texfonts/pk/ljfour/jknappen/ec/ecrm1200.60
+0pk> </tmp/texfonts/pk/ljfour/jknappen/ec/ecrm1728.600pk></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on rapport.pdf (10 pages, 290826 bytes).
 PDF statistics:
- 241 PDF objects out of 1000 (max. 8388607)
- 199 compressed objects within 2 object streams
- 38 named destinations out of 1000 (max. 500000)
+ 467 PDF objects out of 1000 (max. 8388607)
+ 207 compressed objects within 3 object streams
+ 40 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
