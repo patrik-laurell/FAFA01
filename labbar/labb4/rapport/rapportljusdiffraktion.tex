@@ -1,0 +1,172 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{style}
+\usepackage{makeidx}
+\usepackage{color}
+\setlength{\parindent}{15pt}
+
+
+\begin{document}
+\pagenumbering{roman}
+\title{Ljusets diffraktion}
+\author{Björn Wictorin och Patrik Laurell\\
+Handledare Martin Hansson}
+\maketitle
+\pagebreak
+\tableofcontents{}
+\pagebreak
+\pagenumbering{arabic}
+
+\section{Inledning}
+Ljus är ett fenomen som kan beskrivas både som strålar och som vågor. Då ljus ses som en typ av elektromagnetiska vågor, gäller de egenskaper som är typiska för alla vågor. Flera ljusvågor kan interferera med varandra, och då vågen stöter på ett hinder uppstår diffraktion.\\
+\indent Syftet med den första delen av laborationen var att skapa en förståelse för fenomenen interferens och diffraktion. Detta gjordes genom att laserljus fick gå genom olika spalter och gitter och sedan studeras på en avlägsen skärm.\\
+\indent Andra delen av laborationen syftade till att ge en förståelse för en gitterspektrometer, samt hur denna använder diffraktion för att dela upp ljus i de våglängder det består av. Detta gjordes genom att ljus från en kadmiumlampa studerades genom gitterspektroskopet.\\
+\indent Syftet med den tredje delen av laborationen var att studera hur intensiteten varierar i det mönster som uppstår då laserljus går genom en skiva med fyra spalter. För att studera intensiteten togs bilder med en kamera. Dessa bilder analyserades sedan med hjälp av datorprogrammet NSPALT.
+
+\section{Teori}
+Ljus kan ses som elektromagnetiska vågor. När vågor möts säger superpositionsprincipen att vågorna adderas till en ny resulterande våg. Detta skiljer vågor från partiklar, och kallas för interferens. Många fenomen som uppstår då ljus passerar genom spalter och gitter, t.ex. diffraktion och interferens, kan inte förklaras med stråloptik, utan kräver att vågmodellen används.\\
+\indent Interferens är den egenskap hos vågor som innebär att två eller flera vågor som möts läggs ihop till en resulterande våg genom superposition. Om två vågor är i fas kommer deras amplituder att adderas. Att amplituderna adderas kallas konstruktiv interferens. Om fasskillnaden vågorna emellan däremot motsvarar en halv våglängd kommer vågorna att ta ut varandra. Den resulterande amplituden blir då differensen mellan amplituderna. Att två vågor tar ut varandra kallas destruktiv interferens.\\
+\indent Diffraktion är den böjning av en våg som uppstår då vågen stöter på ett hinder, exempelvis en spalt. Då plana vågfronter går genom en smal spalt fungerar spalten som en punktkälla för ljuset som kommer ut på andra sidan av spalten. Ljuset sprids alltså i olika riktningar trots att de inkommande vågfronterna är plana. P.g.a. interferens, dvs. superpositionering av de ingående vågorna, kommer ett mönster av varierande ljusintensitet uppstå. Hur detta mönster ser ut beror på det objekt som gett upphov till diffraktionen.\\
+\indent Vid studie av diffraktion används modellerna Fresnel- och Fraunhoferdiffraktion. Fresneldiffraktion är den mer allmänna modellen för hur intensiteten varierar i diffraktionsmönstret. Fraunhofermodellen är en förenkling av Fresneldiffraktionen, och förutsätter att vågfronterna före och efter gittret är plana. Intensiteten vid Fraunhoferdiffration beskrivs med formeln
+\begin{align}
+	I = I(0) \cdot \left(\frac{\sin\beta}{\beta}\right)^2 \cdot \left(\frac{\sin(N\alpha)}{N\sin\alpha}\right)^2 \\
+	\text{med } \beta = \frac{1}{2}ka\sin\theta \text{ och } \alpha = \frac{1}{2}kd\sin\theta \nonumber
+	\label{fraunhofer}
+\end{align}
+där $I(0)$ är intensiteten vid $\theta = 0$, $a$ är spaltvidden, $d$ är spaltavståndet, $N$ är antalet spalter och $k = \frac{2\pi}{\lambda}$. \\
+\indent Vanliga diffraktionsmönster som studeras är de som uppstår då ljuset passerar genom en eller flera smala och höga spalter. Vid diffraktion i enkelspalt uppstår ett symmetriskt mönster av växelvis mörka och ljusa områden vilket är vinkelrätt mot spalten. Positionen för de mörka områdena beskrivs med formeln
+\begin{equation}
+	a\sin\theta = m\lambda
+	\label{enkelspalt}
+\end{equation}
+där $a$ är spaltens bredd, $\theta$ vinkeln relativt normalen för minimumet, $m$ är ett positivt heltal som avgör vilken mörk punkt i ordningen som avses och $\lambda$ är vågens våglängd.\\
+\indent Då ljus passerar en cirkulär öppning, istället för en spalt uppstår ett cirkulärt diffraktionsmönster, där intensiteten varierar med radien. Vinkeln vid vilken det uppstår ett minimum beskrivs av
+\begin{equation}
+	D\sin\theta = m\lambda
+	\label{cirkdiff}
+\end{equation}
+där $D$ är diametern på öppningen och $m = \text{1.22; 2.23; 3.24; 4.25; 5.25} \ldots$ beroende på minimats ordning. \\
+\indent En annan typ av diffraktionsmönster är det som uppstår då ljuset passerat genom ett gitter, vilket är ett stort antal smala spalter som sitter mycket tätt samman. För diffraktion i gitter gäller den s.k. gitterformeln (\ref{gitterekvationen}), som kan härledas ur Fraunhoferekvationen. Den liknar formeln för diffraktion i enkelspalt (\ref{enkelspalt}), men beskriver vinkeln för intensitetsmaxima istället för minima.
+\begin{equation}
+	d\sin\theta = m\lambda
+	\label{gitterekvationen}
+\end{equation}
+där $d$ är gitterkonstanten, dvs. avståndet mellan mitten av två intilliggande ritsor.\\
+\indent Spektroskopi är en teknik för att studera vilka våglängder ett visst ljus innehåller, och används bl.a. för att studera vilka grundämnen kemiska prover innehåller. I ett gitterspektroskop används ett gitter för att dela upp ljuset i sina ingående våglängder. Det spektrum som uppstår studeras genom en kikare monterat på en detaljerad gradskiva. Med hjälp av denna kan vinkeln bestämmas, och då vinkel, ordning och gitterkonstant är känt kan våglängden bestämmas med gitterekvationen(\ref{gitterekvationen}).
+
+
+diffraktion
+interferens
+spektroskopi
+fresnel
+frauenhofer
+gitter + gitterformeln
+formel för brytning i spalt
+laser parallella strålar
+
+
+\section{Apparatur}
+Under laborationen användes följande apparatur:
+\begin{itemize}
+	\item Röd Neon-Helium-laser med våglängd 632.8 nm
+	\item Grön Neon-Helium-laser med våglängd 543.5 nm\footnote{Värdet på våglängden hämtat från www.repairfaq.org/sam/laserhen.htm}
+	\item Skiva med ställbar spalt
+	\item Skiva med cirkulärt hål
+	\item Skiva med rektangulärt hål
+	\item Skiva med transmissionsgitter
+	\item Irisbländare
+	\item Negativ lins
+	\item Liten kula
+	\item Gitterspektroskop
+	\item Kadmiumlampa
+	\item CCD-kamera
+	\item Dator med programmen MatLab och NSPALT
+	\item Skärm av opalglas
+	
+\end{itemize}
+
+\section{Utförande}
+\subsection{Diffraktionsexperiment med laserljus}
+Laborationens första del gick ut på att studera diffraktion av laserljus. Laserljus fick passera genom en spalt vars bredd kunde varieras. Diffraktionsmönstret studerades sedan på en skärm. Denna skärm var placerad cirka sex meter bort för att den vågfront som träffade väggen skulle kunna approximeras som plan. Avståndet mellan spalten och skärmen uppmättes. Undersökningar gjordes av vad som hände med mönstret då spaltens bredd varierades. Spaltvidden för en given spalt bestämdes genom att diffraktionsmönstret på en skärm studerades och mättes. Spaltvidden bestämdes med hjälp av formeln för en enkelspalt (\ref{enkelspalt}).\\
+\indent Proceduren ovan upprepades sedan, nu med en skiva med en cirkulär öppning i istället för en spalt. Ekvationen (\ref{cirkdiff}) användes för att bestämma öppningens diameter.\\
+\indent Diffraktionsmönstret som uppstår då ljus passerar genom ett rektangulärt hål studerades. Observationer av diffraktionsmönstret antecknades.\\
+\indent Diffraktionsmönstret för ljus som passerar genom två olika gitter med 40 respektive 80 ritsor per mm studerades genom att först ett och sedan två gitter ställdes upp mellan lasern och skärmen. Mönstret som uppstod då gittrens ritsor var vinklade vinkelrätt mot varandra studerades.\\
+\indent Fresneldiffraktion studerades sedan genom att en konkav lins placerades mellan lasern och diffraktionsföremålet, för att ge upphov till körkta vågfronter. Först fick ljuset gå genom en cirkulär öppning och sedan förbi en liten kula. De två olika resulterande diffraktionsmönstren studerades.
+
+\subsection{Experiment med gitterspektroskop}
+Laborationens andra del behandlade gitterspektroskopet. I denna del användes ett gitterspektroskop för att studera spektrallinjerna i ljuset från en kadmiumlampa. Vinkeln till den gröna spektrallinjen av fjärde ordningen bestämdes, och med hjälp av gitterformeln beräknades gittrets gitterkonstant. Utifrån detta värdet på gitterkonstanten och mätningar av de andra spektrallinjernas vinklar, beräknades våglängden på ljuset i spektrallinjerna. De framräknade våglängderna jämfördes sedan med värden för kadmiums ljusspektrum i en fysiktabell.
+
+\subsection{Diffraktion i ett N-spaltsystem}
+Laborationens tredje del behandlade diffraktion i ett spaltsystem med fyra spalter. Rött laserljus fick lysa genom en skiva med fyra tätt belägna spalter. Diffraktionsmönstret projicerades på en skärm av opalglas. Detta mönster fotograferades med en CCD-kamera som var kopplad till en dator. Datorn sparade bilden med hjälp av datorprogrammet MatLab. Bilden öppnades sedan i ett annat program, NSPALT, i vilket ljusintensiteten studerades och jämfördes med mönstret för en ideal Fraunhoferdiffraktion. För att kunna förse NSPALT med nödvändiga parametrar uppmättes avståndet mellan spaltskivan och skärmen, samt bredden av den del av skärmen som syntes på bilden. Genom jämförelse av den från bilden framtagna diffraktionskurvan och teoretiska diffraktionskurvor med olika parametervärden bestämdes spaltbredden och avståndet mellan spalterna. Den gröna lasern slogs sedan på, och dess diffraktionsmönster analyserades i NSPALT. Genom jämförelse med ideala Fraunhofermönster för ljus med olika våglängd bestämdes det gröna laserljusets våglängd.
+
+\section{Resultat}
+\subsection{Diffraktionsexperiment med laserljus}
+Vid undersökningen av spalten med ställbar spaltbredd uppstod ett diffraktionsmönster som bestod av en horisontell linje med omväxlande mörka och ljusa områden. Mönstret var helt symmetriskt. Det mittersta ljusa området var bredast, de yttre blev allt smalare. Det noterades att diffraktionsmönstret blev bredare då spalten gjordes smalare, och vice versa. Då mönstret gjordes bredare flöt de ljusa och mörka områdena till slut samman så att det blev svårt att urskilja minima. Vid bestämningen av spaltbredden för den lins som skulle undersökas uppmättes avståndet från centrum av diffraktionsmönstret till första minimumet till 18.5mm. Avståndet mellan spalten och skärmen uppmättes till 5.79 m. Utifrån dessa värden beräknades spaltens bredd till 0.20 mm.\\
+\indent För den cirkulära öppningen uppmättes avståndet från diffraktionsmönstrets centrum till första minimat till 19mm. Utifrån detta värde och värdet på avståndet från skivan till skärmen som var samma som i den förra uppgiften bestämdes öppningens diameter till 0.24 mm.\\
+\indent Då ljuset fick gå genom en rektangulär öppning uppstod ett mönster som såg ut som det från en spalt, fast i två leder. I mitten syntes en rektangel, och från denna gick det ut ränder i vertikal och horisontell riktning. Då den rektangulära öppningen gjordes högre blev rektangeln på skärmen kortare i höjdled. På samma sätt minskade rektangelns bredd då den rektangulära öppningen gjordes bredare.\\
+\indent Gittret med 80 ritsor per mm gav upphov till ett mer spritt spektrum än gittret med 40 ritsor per mm. Då ljuset fick passera genom två vinkelräta gitter uppställda precis efter varandra uppstod ett mönster bestående av ett rutnät av intensiva ljuspunkter.\\
+\indent Då konkavt ljus fick passera förbi en kula syntes i diffraktionsmönstret en rund skugga från kulan. Mitt i denna skugga uppstod en ljus prick. Precis runt om skuggan var ljusintensiteten extra stark. Då det konkava ljuset istället fick passera genom en rund öppning blev det en ljus fläck på skärmen. Mitt i denna fläck syntes en svart prick.
+
+\subsection{Experiment med gitterspektroskop}
+Vinkeln för kadmiumspektrumets gröna linje av fjärde ordningen uppmättes till 2.43°. Utifrån detta värde och den kända våglängden för grönt ljus från kadmium bestämdes gittrets gitterkonstant till 0.0104 mm. Det motsvarar 95.7 ritsor per mm. Tabell 1 nedan visar uppmätta vinklar för tredje ordningens spektrallinjer, samt vilka våglängder det motsvarar.
+\begin{table}[htb]
+	\centering
+\caption{Tabellen innehåller uppmätta vinklar för kadmiums spektrallinjer av tredje ordningen, samt vilka våglängder detta medför för ljuset. Dessutom visas tabellvärden för vågländerna för ljus i kadmium.}		
+	\begin{tabular}{|l | l  |l| l |}\hline
+	Färg & Vinkel (°) & Uträknad våglängd (nm) & Våglängd enligt tabell \\ \hline
+	Mörkblå & 8.06 & 488.2 & 467.815\\ \hline
+	Turkos & 8.25 & 499 & 479.991\\ \hline
+	Röd & 11.13 & 672 & 643.847\\ \hline
+	\end{tabular}
+		
+\end{table}
+
+\subsection{Diffraktion i ett N-spaltsystem}
+Figur \ref{rödbild} och \ref{grönbild} nedan visar diffraktionsmönstret på opalskärmen för det röda och gröna laserljuset.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{../bilder/rodlaser.jpg}
+	\caption{Diffraktionsmönster från röd laser. Bilden är tagen med en CCD-kamera.}
+	\label{rödbild}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{../bilder/gronlaser.jpg}
+	\caption{Diffraktionsmönster från grön och röd laser  Bilden är tagen med en CCD-kamera.}
+	\label{grönbild}
+\end{figure}
+
+Figur \ref{nspaltröd} nedan visar intensiteten för det röda diffraktionsmönstret i figur \ref{rödbild}, samt den teoretiska Fraunhoferintensitetskurvan. Figur \ref{nspaltgrön} visar motsvarande kurvor för den gröna lasern i figur \ref{grönbild}. Spaltbredden för de fyra spalterna bestämdes till 50 $\mu$m, och spaltavståndet till 100 $\mu$m. Våglängden för det gröna laserljuset bestämdes till 538 nm.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{../bilder/nspaltrod.jpg}
+	\caption{Den gula kurvan i figuren visar intensiteten för den röda laserns diffraktionsmönster från figur \ref{rödbild}. Den röda kurvan visar det teoretiska mönstret för motsvarande Fraunhoferdiffraktion. Bilden är genererad i programmet NSPALT.}
+	\label{nspaltröd}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{../bilder/nspaltgron.jpg}
+	\caption{Den gula kurvan i figuren visar intensiteten för den gröna laserns diffraktionsmönster från figur \ref{grönbild}. Den röda kurvan visar det teoretiska mönstret för motsvarande Fraunhoferdiffraktion. Bilden är genererad i programmet NSPALT.}
+	\label{nspaltgrön}
+\end{figure}
+
+\section{Diskussion}
+\subsection{Diffraktionsexperiment med laserljus}
+Att diffraktionsmönstret blev bredare då spalten gjordes smalare, och vice versa, stämmer väl överens med det resultat som kan förväntas av formeln för diffraktion i en enkelspalt. Den säger nämligen att vinkeln för minima relativt normalen minskar då spaltbredden ökar. Att mönstret till slut flöt samman till en linje då mönstret breddades är rimligt eftersom det troligen bara var det mittersta maximumet som syntes. Detta hade nu spridits ut så pass mycket att det såg ut som en lång linje.\\
+\indent Det angivna värdet på den spalt för vilken bredden skulle bestämmas var 0.2 mm. Detta värde stämmer väl överens med det som togs fram genom mätningarna på diffraktionsmönstret. Mätningarna gjordes alltså troligen på ett korrekt sätt. Under laborationen gjordes mätningarna på första ordningens minima. Det hade varit bättre att mäta på högre ordningens minima, eftersom det hade minskat påverkan från eventuella mätfel.\\
+\indent Det angivna värdet för den cirkulära öppningens diameter var 0.25 nm. Detta värde ligger nära det framräknade värdet på 0.24 mm. För att få ett mer korrekt mätvärde hade det även här varit bättre att mäta avståndet till minima av en högre ordning, för att minska effekten av mätfel.\\
+\indent Att diffraktionsmönstret från en rektangulär öppning såg ut som det från en spalt fast i två dimensioner beror på att öppningen är så liten att den kan ses som två spalter vinkelräta mot varandra. Detta förklarar att rektangeln i mönstret blev bredare då bredden på den rektangulära öppningen minskades, och vice versa. Samma resonemang gäller i höjdled.\\
+\indent Gittret med tätare mellan ritsorna, 80 per mm, gav ett bredare diffraktionsmönster än gittret med färre, 40 ritsor per mm. Detta stämmer väl överens med gitterformeln, vilken säger att ett vinkeln för ett maxima relativt normalen ökar då gitterkonstanten minskar. Att gitterkonstanten minskar betyder att avståndet mellan två intilliggande ritsor minskar, och vidare att antalet ritsor per längdenhet ökar. Alltså är det i enlighet med teorin att tätare ritsor i gittret ger ett bredare mönster.\\
+\indent Att två gitter med ritsorna riktade vinkelräta mot varandra placerade i följd gav upphov till ett rutnät av punkter på skärmen beror på att varje maxima som bildats i diffraktionsmönstret från det första gittret, sprids till ett nytt diffraktionsmönster när det passerar det andra gittret.\\
+
+\subsection{Experiment med gitterspektroskop}
+Det angivna värdet för gittret i gitterspektroskopet var 100 ritsor per mm. Det framräknade värdet på gittret var 95.7 ritsor per mm, vilket ligger nära det angivna värdet. Generellt sett är det fördelaktigt att göra vinkelmätningarna på spektrallinjer av så hög ordning som möjligt, eftersom mätfel då utgör en mindre andel av mätvärdet. Det hade därför varit bättre att mäta på en linje av högre ordning, men linjen av ordning fyra 
+
+\subsection{Diffraktion i ett N-spaltsystem}
+
+\end{document}
